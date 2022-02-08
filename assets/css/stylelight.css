@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.lightdiv {
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.75);
+}
+.lightdivin {
+  position: fixed;
+  top: 13%;
+  left: 35%;
+
+  width: 38%;
+  height: auto;
+}
+.lightdivsmall {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+}
+.lightdiv img {
+  width: 100%;
+  height: auto;
+}
+.lightdivsmall img {
+  width: 15%;
+  height: auto;
+  margin: 1em;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  padding: 1em;
+  z-index: 0;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid hsl(223, 64%, 98%);
+  padding-bottom: 2em;
+}
+.headleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  padding-right: 1em;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu li {
+  padding: 0 1em;
+}
+.menu a {
+  text-decoration: none;
+  color: hsl(220, 14%, 75%);
+  font-weight: 700;
+  font-size: 13px;
+}
+.headright {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.basket {
+  padding-right: 2em;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%;
+  padding: 5em 3em;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+
+  align-items: stretch;
+  width: 45%;
+}
+img {
+  border-radius: 10px;
+}
+.big {
+  width: 100%;
+  height: auto;
+}
+.big img {
+  width: 100%;
+  height: auto;
+}
+.small {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 2em;
+}
+.small div {
+  width: 20%;
+}
+.small img {
+  width: 100%;
+  height: 100%;
+}
+
+.smallimg1 {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 12px;
+}
+.smallimg1 img {
+  opacity: 0.2;
+}
+/*
+.small div:nth-of-type(1) {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 12px;
+  opacity: 0.2;
+} */
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  padding: 3.5em 0;
+}
+.sc {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  font-size: 13px;
+  padding-bottom: 0.5em;
+}
+.fles {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+.para {
+  color: hsl(220, 14%, 75%);
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 13px;
+  padding-bottom: 2em;
+}
+.exp2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+.pbb {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+  font-size: 28px;
+  padding-right: 0.5em;
+}
+.po {
+  color: hsl(26, 100%, 55%);
+  background-color: hsl(25, 100%, 94%);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0.5em;
+  border-radius: 5px;
+  text-align: center;
+}
+.exp3 {
+  color: hsl(220, 14%, 75%);
+  line-height: 1.5;
+  font-weight: 30;
+  font-size: 13px;
+  padding-bottom: 2em;
+}
+.exp4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(223, 64%, 98%);
+  padding: 1em;
+  border-radius: 5px;
+}
+.add a {
+  text-decoration: none;
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+}
+.add p {
+  padding: 0 2.5em;
+  font-weight: 700;
+}
+.cart {
+}
+.cart button {
+  background-color: hsl(26, 100%, 55%);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1em 4em;
+  border-radius: 10px;
+}
+.addcart {
+  padding-left: 1em;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
