@@ -21,8 +21,11 @@
   top: 13%;
   left: 35%;
 
-  width: 38%;
+  width: 36%;
   height: auto;
+}
+.lightimg::after {
+  content: "";
 }
 .lightdivsmall {
   display: flex;
